@@ -13,15 +13,23 @@
       android:id="@+id/signup_email"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:hint="email"
+      android:hint="Email"
       android:inputType="textEmailAddress"
+      />
+
+  <EditText
+      android:id="@+id/signup_library_card_number"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Library card number"
+      android:inputType="text"
       />
 
   <EditText
       android:id="@+id/signup_password"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:hint="passoword"
+      android:hint="Passoword"
       android:inputType="textPassword"
       />
 
