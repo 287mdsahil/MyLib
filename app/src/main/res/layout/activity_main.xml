@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+  <EditText
+      android:id="@+id/login_email"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="email"
+      android:inputType="textEmailAddress"
+      />
+
+  <EditText
+      android:id="@+id/login_password"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="passowrd"
+      android:inputType="textPassword"
+      />
+
+  <Button
+      android:id="@+id/login_button"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="login"
+      />
+
+  <Button
+      android:id="@+id/login_sign_up_button"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="signup"
+      />
+
+  <ProgressBar
+      android:id="@+id/login_progressbar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:visibility="gone"
+      />
+
+</LinearLayout>
